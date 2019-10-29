@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)https://gnaudio.github.io/jabra-browser-integration/release/development/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Jabra Browser Integration</title>
+  <link href="./Jabra Browser Integration 2_files/main.css" rel="stylesheet">
+  <link href="./Jabra Browser Integration 2_files/toastr.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="https://gnaudio.github.io/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://gnaudio.github.io/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<a href="https://github.com/gnaudio/jabra-browser-integration"><img style="position: absolute; top: 0; right: 0; border: 0;" src="./Jabra Browser Integration 2_files/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+<header>
+  <div class="wrapper center">
+    <h1 class="title">Jabra Browser Integration</h1>
+    <p>Library test</p>
+  </div>
+</header>
+<section id="section">
+  <div class="wrapper">
+    <h4>Description</h4>
+    <p>On this page you can try out the Jabra library. Callbacks are shown as toasts. Look at the source for an example on how to use the library.</p>
+    <p>Note: No state logic is built into this test page. For valid use-cases follow these <a href="https://github.com/gnaudio/jabra-browser-integration#sequence-diagrams">sequences</a>.</p>
+    <div id="subTitles">
+        <p id="subTitle1"></p>
+        <p id="subTitle2"></p>
+        <b id="noDeviceFound"></b>
+    </div>
+    <br>
+    <h4>Basic:</h4>
+    <button id="ring" type="button">jabra.resume();</button>
+    <br>
+    <button id="offhook" type="button">jabra.offHook();</button>
+    <button id="onhook" type="button">jabra.onHook();</button>
+    <br>
+    <button id="mute" type="button">jabra.mute();</button>
+    <button id="unmute" type="button">jabra.unmute();</button>
+    <h4>Advanced (optional):</h4>
+    <button id="hold" type="button">jabra.hold();</button>
+    <button id="resume" type="button">jabra.resume();</button>
+    <h4>Device management (optional, only required for multi-device handling):</h4>
+    <label for="changeActiveDeviceBtn" disabled="true">Select device to use:</label>
+    <select id="deviceSelector"> 
+    <option value="1">Jabra PRO 9450</option></select>
+    <input id="changeActiveDeviceBtn" type="button" value="Set as active">
+    <br>
+  </div>
+
+</section>
+<footer>
+  <div class="wrapper center">
+    <p>GN Audio A/S</p>
+  </div>
+</footer>
+<script type="text/javascript" src="./Jabra Browser Integration 2_files/jabra.browser.integration-2.0.js.download"></script>
+<script type="text/javascript" src="./Jabra Browser Integration 2_files/jquery.min.js.download"></script>
+<script type="text/javascript" src="./Jabra Browser Integration 2_files/toastr.min.js.download"></script>
+<script type="text/javascript" src="./Jabra Browser Integration 2_files/main.js.download"></script>
+
+</body></html>
