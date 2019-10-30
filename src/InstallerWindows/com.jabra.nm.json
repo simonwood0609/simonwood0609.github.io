@@ -1,0 +1,12 @@
+// Copyright 2017 GN Audio A/S
+{
+  "name": "com.jabra.nm",
+  "description": "Jabra Browser Integration Host",
+  "path": "jabrachromehost.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://okpeabepajdgiepelmhkfhkjlhhmofma/",
+	  "chrome-extension://igcbbdnhomedfadljgcmcfpdcoonihfe/",
+	  "chrome-extension://klapphmlodmhfolphohgkmimlkpcindc/"
+  ]
+}
